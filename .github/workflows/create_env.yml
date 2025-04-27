@@ -38,6 +38,9 @@ on:
 defaults:
   run:
     shell: pwsh
+permissions:
+  contents: read
+
 jobs:
   determine_resourcegroup:
     runs-on: ubuntu-latest

@@ -8,6 +8,9 @@ on:
 defaults:
   run:
     shell: pwsh
+permissions:
+  contents: read
+
 jobs:
   smoke_tests:
     runs-on: ubuntu-latest

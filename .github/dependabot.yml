@@ -31,3 +31,13 @@ updates:
     directory: "/TodoItems.Api"
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: nuget
+    directory: /TodoItems.Api.IntegrationTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /TodoItems.Api
+    schedule:
+      interval: daily

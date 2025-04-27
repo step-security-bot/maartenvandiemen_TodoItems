@@ -19,6 +19,9 @@ on:
 defaults:
   run:
     shell: pwsh
+permissions:
+  contents: read
+
 jobs:
   deploy_db:
     permissions: 

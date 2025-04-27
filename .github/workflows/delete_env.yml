@@ -8,6 +8,9 @@ on:
 defaults:
   run:
     shell: pwsh
+permissions:
+  contents: read
+
 jobs:
   delete_env:
     permissions: 
